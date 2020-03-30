@@ -1,10 +1,4 @@
-<div>
-<img align="right" src="imgs/DockerLogo.png" alt="Docker logo" />
-</div>
-
-
-<div>
-
+ 
 # Docker examples
 
 
