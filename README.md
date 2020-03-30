@@ -1,9 +1,11 @@
-<img align="right" src="imgs/DockerLogo.png" alt="Docker logo" />
-
 <div align="center">
+<img align="right" src="imgs/DockerLogo.png" alt="Docker logo" />
+<div/ align="center">
+
+
 
 # Docker examples
-</div>
+
 
 
 __General information:__
