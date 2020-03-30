@@ -1,0 +1,469 @@
+Attaching to selenium-hub, simpledockerdemo_firefox_1, simpledockerdemo_chrome_1
+[36mselenium-hub    |[0m 2020-03-20 15:39:14,909 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+[36mselenium-hub    |[0m 2020-03-20 15:39:14,910 INFO supervisord started with pid 7
+[32mfirefox_1       |[0m 2020-03-20 15:39:15,428 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mfirefox_1       |[0m 2020-03-20 15:39:15,430 INFO supervisord started with pid 7
+[33mchrome_1        |[0m 2020-03-20 15:39:15,452 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mchrome_1        |[0m 2020-03-20 15:39:15,453 INFO supervisord started with pid 7
+[36mselenium-hub    |[0m 2020-03-20 15:39:15,914 INFO spawned: 'selenium-hub' with pid 10
+[36mselenium-hub    |[0m Starting Selenium Hub with configuration:
+[36mselenium-hub    |[0m 2020-03-20 15:39:15,952 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mselenium-hub    |[0m {
+[36mselenium-hub    |[0m   "host": "0.0.0.0",
+[36mselenium-hub    |[0m   "port": 4444,
+[36mselenium-hub    |[0m   "role": "hub",
+[36mselenium-hub    |[0m   "maxSession": 5,
+[36mselenium-hub    |[0m   "newSessionWaitTimeout": -1,
+[36mselenium-hub    |[0m   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+[36mselenium-hub    |[0m   "throwOnCapabilityNotPresent": true,
+[36mselenium-hub    |[0m   "jettyMaxThreads": -1,
+[36mselenium-hub    |[0m   "cleanUpCycle": 5000,
+[36mselenium-hub    |[0m   "browserTimeout": 0,
+[36mselenium-hub    |[0m   "timeout": 1800,
+[36mselenium-hub    |[0m   "debug": false
+[36mselenium-hub    |[0m }
+[36mselenium-hub    |[0m 15:39:16.333 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mfirefox_1       |[0m 2020-03-20 15:39:16,432 INFO spawned: 'xvfb' with pid 10
+[32mfirefox_1       |[0m 2020-03-20 15:39:16,433 INFO spawned: 'selenium-node' with pid 11
+[36mselenium-hub    |[0m 15:39:16.441 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+[33mchrome_1        |[0m 2020-03-20 15:39:16,455 INFO spawned: 'xvfb' with pid 10
+[33mchrome_1        |[0m 2020-03-20 15:39:16,456 INFO spawned: 'selenium-node' with pid 11
+[32mfirefox_1       |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[32mfirefox_1       |[0m 2020-03-20 15:39:16,530 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2020-03-20 15:39:16,530 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[33mchrome_1        |[0m 2020-03-20 15:39:16,561 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 2020-03-20 15:39:16,562 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mselenium-hub    |[0m 2020-03-20 15:39:16.903:INFO::main: Logging initialized @933ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mfirefox_1       |[0m 15:39:16.997 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mchrome_1        |[0m 15:39:17.048 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mfirefox_1       |[0m 15:39:17.248 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[33mchrome_1        |[0m 15:39:17.304 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[36mselenium-hub    |[0m 15:39:17.389 INFO [Hub.start] - Selenium Grid hub is up and running
+[36mselenium-hub    |[0m 15:39:17.392 INFO [Hub.start] - Nodes should register to http://172.18.0.2:4444/grid/register/
+[36mselenium-hub    |[0m 15:39:17.393 INFO [Hub.start] - Clients should connect to http://172.18.0.2:4444/wd/hub
+[32mfirefox_1       |[0m 2020-03-20 15:39:17.417:INFO::main: Logging initialized @873ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mchrome_1        |[0m 2020-03-20 15:39:17.492:INFO::main: Logging initialized @921ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mfirefox_1       |[0m 15:39:17.731 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[33mchrome_1        |[0m 15:39:17.827 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mfirefox_1       |[0m 15:39:17.864 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[32mfirefox_1       |[0m 15:39:17.864 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mfirefox_1       |[0m 15:39:17.945 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[33mchrome_1        |[0m 15:39:17.964 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[33mchrome_1        |[0m 15:39:17.964 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[33mchrome_1        |[0m 15:39:18.039 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[32mfirefox_1       |[0m 15:39:18.621 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[33mchrome_1        |[0m 15:39:18.622 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[33mchrome_1        |[0m 15:39:18.686 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36mselenium-hub    |[0m 15:39:18.686 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.4:5555
+[36mselenium-hub    |[0m 15:39:18.692 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.3:5555
+[32mfirefox_1       |[0m 15:39:18.693 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+Attaching to selenium-hub, simpledockerdemo_firefox_1, simpledockerdemo_chrome_1
+[33mchrome_1        |[0m 2020-03-20 08:43:02,119 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mchrome_1        |[0m 2020-03-20 08:43:02,121 INFO supervisord started with pid 7
+[33mchrome_1        |[0m 2020-03-20 08:43:03,127 INFO spawned: 'xvfb' with pid 10
+[33mchrome_1        |[0m 2020-03-20 08:43:03,138 INFO spawned: 'selenium-node' with pid 11
+[33mchrome_1        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[33mchrome_1        |[0m 2020-03-20 08:43:03,290 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 2020-03-20 08:43:03,290 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 08:43:03.703 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mchrome_1        |[0m 08:43:03.879 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[33mchrome_1        |[0m 2020-03-20 08:43:04.007:INFO::main: Logging initialized @702ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mchrome_1        |[0m 08:43:04.281 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[33mchrome_1        |[0m 08:43:04.399 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[33mchrome_1        |[0m 08:43:04.400 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[33mchrome_1        |[0m 08:43:04.480 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[33mchrome_1        |[0m 08:43:04.970 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[33mchrome_1        |[0m 08:43:05.024 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[33mchrome_1        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[33mchrome_1        |[0m 2020-03-20 08:43:26,003 WARN received SIGTERM indicating exit request
+[33mchrome_1        |[0m 2020-03-20 08:43:26,003 INFO waiting for xvfb, selenium-node to die
+[33mchrome_1        |[0m 2020-03-20 08:43:26,004 INFO stopped: selenium-node (terminated by SIGTERM)
+[33mchrome_1        |[0m 2020-03-20 08:43:26,006 INFO stopped: xvfb (terminated by SIGTERM)
+[33mchrome_1        |[0m Shutdown complete
+[33mchrome_1        |[0m 2020-03-20 14:54:53,995 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mchrome_1        |[0m 2020-03-20 14:54:53,997 INFO supervisord started with pid 7
+[33mchrome_1        |[0m 2020-03-20 14:54:55,004 INFO spawned: 'xvfb' with pid 10
+[33mchrome_1        |[0m 2020-03-20 14:54:55,011 INFO spawned: 'selenium-node' with pid 11
+[33mchrome_1        |[0m 2020-03-20 14:54:56,018 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 2020-03-20 14:54:56,018 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[33mchrome_1        |[0m 14:54:56.680 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mchrome_1        |[0m 14:54:57.115 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[33mchrome_1        |[0m 2020-03-20 14:54:57.414:INFO::main: Logging initialized @1367ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mchrome_1        |[0m 14:54:57.935 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[33mchrome_1        |[0m 14:54:58.179 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[33mchrome_1        |[0m 14:54:58.181 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[33mchrome_1        |[0m 14:54:58.283 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[33mchrome_1        |[0m 14:54:59.191 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[33mchrome_1        |[0m 14:54:59.239 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[33mchrome_1        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[33mchrome_1        |[0m 2020-03-20 14:56:37,689 WARN received SIGTERM indicating exit request
+[33mchrome_1        |[0m 2020-03-20 14:56:37,690 INFO waiting for xvfb, selenium-node to die
+[33mchrome_1        |[0m 2020-03-20 14:56:37,690 INFO stopped: selenium-node (terminated by SIGTERM)
+[33mchrome_1        |[0m 2020-03-20 14:56:37,691 INFO stopped: xvfb (terminated by SIGTERM)
+[33mchrome_1        |[0m Shutdown complete
+[33mchrome_1        |[0m 2020-03-20 15:18:38,594 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mchrome_1        |[0m 2020-03-20 15:18:38,596 INFO supervisord started with pid 7
+[33mchrome_1        |[0m 2020-03-20 15:18:39,598 INFO spawned: 'xvfb' with pid 10
+[33mchrome_1        |[0m 2020-03-20 15:18:39,599 INFO spawned: 'selenium-node' with pid 11
+[33mchrome_1        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[33mchrome_1        |[0m 2020-03-20 15:18:39,681 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 2020-03-20 15:18:39,682 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 15:18:40.253 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mchrome_1        |[0m 15:18:40.434 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[33mchrome_1        |[0m 2020-03-20 15:18:40.577:INFO::main: Logging initialized @883ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mchrome_1        |[0m 15:18:40.889 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[33mchrome_1        |[0m 15:18:41.025 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[33mchrome_1        |[0m 15:18:41.031 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[33mchrome_1        |[0m 15:18:41.108 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[33mchrome_1        |[0m 15:18:41.683 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[33mchrome_1        |[0m 15:18:41.727 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[33mchrome_1        |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[33mchrome_1        |[0m 2020-03-20 15:18:41,969 WARN received SIGTERM indicating exit request
+[33mchrome_1        |[0m 2020-03-20 15:18:41,970 INFO waiting for xvfb, selenium-node to die
+[33mchrome_1        |[0m 2020-03-20 15:18:41,971 INFO stopped: selenium-node (terminated by SIGTERM)
+[33mchrome_1        |[0m 2020-03-20 15:18:41,973 INFO stopped: xvfb (terminated by SIGTERM)
+[33mchrome_1        |[0m Shutdown complete
+[33mchrome_1        |[0m 2020-03-20 15:39:15,452 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mchrome_1        |[0m 2020-03-20 15:39:15,453 INFO supervisord started with pid 7
+[33mchrome_1        |[0m 2020-03-20 15:39:16,455 INFO spawned: 'xvfb' with pid 10
+[33mchrome_1        |[0m 2020-03-20 15:39:16,456 INFO spawned: 'selenium-node' with pid 11
+[33mchrome_1        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[33mchrome_1        |[0m 2020-03-20 15:39:16,561 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 2020-03-20 15:39:16,562 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 15:39:17.048 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mchrome_1        |[0m 15:39:17.304 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[33mchrome_1        |[0m 2020-03-20 15:39:17.492:INFO::main: Logging initialized @921ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mchrome_1        |[0m 15:39:17.827 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[33mchrome_1        |[0m 15:39:17.964 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[33mchrome_1        |[0m 15:39:17.964 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[33mchrome_1        |[0m 15:39:18.039 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[33mchrome_1        |[0m 15:39:18.622 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[33mchrome_1        |[0m 15:39:18.686 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[32mfirefox_1       |[0m 2020-03-20 08:43:02,115 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mfirefox_1       |[0m 2020-03-20 08:43:02,117 INFO supervisord started with pid 7
+[32mfirefox_1       |[0m 2020-03-20 08:43:03,121 INFO spawned: 'xvfb' with pid 10
+[32mfirefox_1       |[0m 2020-03-20 08:43:03,137 INFO spawned: 'selenium-node' with pid 11
+[32mfirefox_1       |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[32mfirefox_1       |[0m 2020-03-20 08:43:03,209 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2020-03-20 08:43:03,209 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 08:43:03.713 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mfirefox_1       |[0m 08:43:03.876 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[32mfirefox_1       |[0m 2020-03-20 08:43:04.008:INFO::main: Logging initialized @790ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mfirefox_1       |[0m 08:43:04.288 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mfirefox_1       |[0m 08:43:04.399 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[32mfirefox_1       |[0m 08:43:04.399 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mfirefox_1       |[0m 08:43:04.485 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[32mfirefox_1       |[0m 08:43:04.979 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[32mfirefox_1       |[0m 08:43:05.023 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[32mfirefox_1       |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[32mfirefox_1       |[0m 2020-03-20 08:43:26,002 WARN received SIGTERM indicating exit request
+[32mfirefox_1       |[0m 2020-03-20 08:43:26,002 INFO waiting for xvfb, selenium-node to die
+[32mfirefox_1       |[0m 2020-03-20 08:43:26,002 INFO stopped: selenium-node (terminated by SIGTERM)
+[32mfirefox_1       |[0m 2020-03-20 08:43:26,003 INFO stopped: xvfb (terminated by SIGTERM)
+[32mfirefox_1       |[0m Shutdown complete
+[32mfirefox_1       |[0m 2020-03-20 14:54:53,995 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mfirefox_1       |[0m 2020-03-20 14:54:53,997 INFO supervisord started with pid 7
+[32mfirefox_1       |[0m 2020-03-20 14:54:55,002 INFO spawned: 'xvfb' with pid 10
+[32mfirefox_1       |[0m 2020-03-20 14:54:55,008 INFO spawned: 'selenium-node' with pid 11
+[32mfirefox_1       |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[32mfirefox_1       |[0m 2020-03-20 14:54:55,912 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2020-03-20 14:54:55,913 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 14:54:56.681 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mfirefox_1       |[0m 14:54:57.123 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[32mfirefox_1       |[0m 2020-03-20 14:54:57.415:INFO::main: Logging initialized @1443ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mfirefox_1       |[0m 14:54:57.949 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mfirefox_1       |[0m 14:54:58.180 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[32mfirefox_1       |[0m 14:54:58.181 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mfirefox_1       |[0m 14:54:58.284 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[32mfirefox_1       |[0m 14:54:59.168 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[32mfirefox_1       |[0m 14:54:59.238 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[32mfirefox_1       |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[32mfirefox_1       |[0m 2020-03-20 14:56:37,718 WARN received SIGTERM indicating exit request
+[32mfirefox_1       |[0m 2020-03-20 14:56:37,719 INFO waiting for xvfb, selenium-node to die
+[32mfirefox_1       |[0m 2020-03-20 14:56:37,719 INFO stopped: selenium-node (terminated by SIGTERM)
+[32mfirefox_1       |[0m 2020-03-20 14:56:37,720 INFO stopped: xvfb (terminated by SIGTERM)
+[32mfirefox_1       |[0m Shutdown complete
+[32mfirefox_1       |[0m 2020-03-20 15:18:38,569 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mfirefox_1       |[0m 2020-03-20 15:18:38,570 INFO supervisord started with pid 7
+[32mfirefox_1       |[0m 2020-03-20 15:18:39,574 INFO spawned: 'xvfb' with pid 10
+[32mfirefox_1       |[0m 2020-03-20 15:18:39,576 INFO spawned: 'selenium-node' with pid 11
+[32mfirefox_1       |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[32mfirefox_1       |[0m 2020-03-20 15:18:39,626 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2020-03-20 15:18:39,627 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 15:18:40.287 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mfirefox_1       |[0m 15:18:40.481 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[32mfirefox_1       |[0m 2020-03-20 15:18:40.629:INFO::main: Logging initialized @996ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mfirefox_1       |[0m 15:18:40.940 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mfirefox_1       |[0m 15:18:41.066 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[32mfirefox_1       |[0m 15:18:41.066 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mfirefox_1       |[0m 15:18:41.152 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[32mfirefox_1       |[0m 15:18:41.675 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[32mfirefox_1       |[0m 15:18:41.726 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[32mfirefox_1       |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[32mfirefox_1       |[0m 2020-03-20 15:18:41,991 WARN received SIGTERM indicating exit request
+[32mfirefox_1       |[0m 2020-03-20 15:18:41,991 INFO waiting for xvfb, selenium-node to die
+[32mfirefox_1       |[0m 2020-03-20 15:18:41,992 INFO stopped: selenium-node (terminated by SIGTERM)
+[32mfirefox_1       |[0m 2020-03-20 15:18:41,994 INFO stopped: xvfb (terminated by SIGTERM)
+[32mfirefox_1       |[0m Shutdown complete
+[32mfirefox_1       |[0m 2020-03-20 15:39:15,428 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mfirefox_1       |[0m 2020-03-20 15:39:15,430 INFO supervisord started with pid 7
+[32mfirefox_1       |[0m 2020-03-20 15:39:16,432 INFO spawned: 'xvfb' with pid 10
+[32mfirefox_1       |[0m 2020-03-20 15:39:16,433 INFO spawned: 'selenium-node' with pid 11
+[32mfirefox_1       |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[32mfirefox_1       |[0m 2020-03-20 15:39:16,530 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2020-03-20 15:39:16,530 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 15:39:16.997 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mfirefox_1       |[0m 15:39:17.248 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[32mfirefox_1       |[0m 2020-03-20 15:39:17.417:INFO::main: Logging initialized @873ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mfirefox_1       |[0m 15:39:17.731 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mfirefox_1       |[0m 15:39:17.864 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[32mfirefox_1       |[0m 15:39:17.864 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mfirefox_1       |[0m 15:39:17.945 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[32mfirefox_1       |[0m 15:39:18.621 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[32mfirefox_1       |[0m 15:39:18.693 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36mselenium-hub    |[0m 2020-03-20 08:43:01,669 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+[36mselenium-hub    |[0m 2020-03-20 08:43:01,670 INFO supervisord started with pid 7
+[36mselenium-hub    |[0m 2020-03-20 08:43:02,674 INFO spawned: 'selenium-hub' with pid 10
+[36mselenium-hub    |[0m Starting Selenium Hub with configuration:
+[36mselenium-hub    |[0m 2020-03-20 08:43:02,707 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mselenium-hub    |[0m {
+[36mselenium-hub    |[0m   "host": "0.0.0.0",
+[36mselenium-hub    |[0m   "port": 4444,
+[36mselenium-hub    |[0m   "role": "hub",
+[36mselenium-hub    |[0m   "maxSession": 5,
+[36mselenium-hub    |[0m   "newSessionWaitTimeout": -1,
+[36mselenium-hub    |[0m   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+[36mselenium-hub    |[0m   "throwOnCapabilityNotPresent": true,
+[36mselenium-hub    |[0m   "jettyMaxThreads": -1,
+[36mselenium-hub    |[0m   "cleanUpCycle": 5000,
+[36mselenium-hub    |[0m   "browserTimeout": 0,
+[36mselenium-hub    |[0m   "timeout": 1800,
+[36mselenium-hub    |[0m   "debug": false
+[36mselenium-hub    |[0m }
+[36mselenium-hub    |[0m 08:43:02.912 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[36mselenium-hub    |[0m 08:43:02.979 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+[36mselenium-hub    |[0m 2020-03-20 08:43:03.383:INFO::main: Logging initialized @654ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mselenium-hub    |[0m 08:43:03.716 INFO [Hub.start] - Selenium Grid hub is up and running
+[36mselenium-hub    |[0m 08:43:03.717 INFO [Hub.start] - Nodes should register to http://172.18.0.2:4444/grid/register/
+[36mselenium-hub    |[0m 08:43:03.718 INFO [Hub.start] - Clients should connect to http://172.18.0.2:4444/wd/hub
+[36mselenium-hub    |[0m 08:43:05.023 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.4:5555
+[36mselenium-hub    |[0m 08:43:05.026 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.3:5555
+[36mselenium-hub    |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36mselenium-hub    |[0m 2020-03-20 08:43:26,311 WARN received SIGTERM indicating exit request
+[36mselenium-hub    |[0m 2020-03-20 08:43:26,311 INFO waiting for selenium-hub to die
+[36mselenium-hub    |[0m 2020-03-20 08:43:26,312 INFO stopped: selenium-hub (terminated by SIGTERM)
+[36mselenium-hub    |[0m Shutdown complete
+[36mselenium-hub    |[0m 2020-03-20 14:54:53,856 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+[36mselenium-hub    |[0m 2020-03-20 14:54:53,868 INFO supervisord started with pid 7
+[36mselenium-hub    |[0m 2020-03-20 14:54:54,872 INFO spawned: 'selenium-hub' with pid 10
+[36mselenium-hub    |[0m Starting Selenium Hub with configuration:
+[36mselenium-hub    |[0m 2020-03-20 14:54:54,918 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mselenium-hub    |[0m {
+[36mselenium-hub    |[0m   "host": "0.0.0.0",
+[36mselenium-hub    |[0m   "port": 4444,
+[36mselenium-hub    |[0m   "role": "hub",
+[36mselenium-hub    |[0m   "maxSession": 5,
+[36mselenium-hub    |[0m   "newSessionWaitTimeout": -1,
+[36mselenium-hub    |[0m   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+[36mselenium-hub    |[0m   "throwOnCapabilityNotPresent": true,
+[36mselenium-hub    |[0m   "jettyMaxThreads": -1,
+[36mselenium-hub    |[0m   "cleanUpCycle": 5000,
+[36mselenium-hub    |[0m   "browserTimeout": 0,
+[36mselenium-hub    |[0m   "timeout": 1800,
+[36mselenium-hub    |[0m   "debug": false
+[36mselenium-hub    |[0m }
+[36mselenium-hub    |[0m 14:54:56.680 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[36mselenium-hub    |[0m 14:54:57.095 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+[36mselenium-hub    |[0m 2020-03-20 14:54:57.756:INFO::main: Logging initialized @2712ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mselenium-hub    |[0m 14:54:58.230 INFO [Hub.start] - Selenium Grid hub is up and running
+[36mselenium-hub    |[0m 14:54:58.231 INFO [Hub.start] - Nodes should register to http://172.18.0.2:4444/grid/register/
+[36mselenium-hub    |[0m 14:54:58.231 INFO [Hub.start] - Clients should connect to http://172.18.0.2:4444/wd/hub
+[36mselenium-hub    |[0m 14:54:59.238 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.4:5555
+[36mselenium-hub    |[0m 14:54:59.240 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.3:5555
+[36mselenium-hub    |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36mselenium-hub    |[0m 2020-03-20 14:56:37,991 WARN received SIGTERM indicating exit request
+[36mselenium-hub    |[0m 2020-03-20 14:56:37,991 INFO waiting for selenium-hub to die
+[36mselenium-hub    |[0m 2020-03-20 14:56:37,991 INFO stopped: selenium-hub (terminated by SIGTERM)
+[36mselenium-hub    |[0m Shutdown complete
+[36mselenium-hub    |[0m 2020-03-20 15:18:37,952 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+[36mselenium-hub    |[0m 2020-03-20 15:18:37,953 INFO supervisord started with pid 7
+[36mselenium-hub    |[0m 2020-03-20 15:18:38,959 INFO spawned: 'selenium-hub' with pid 10
+[36mselenium-hub    |[0m Starting Selenium Hub with configuration:
+[36mselenium-hub    |[0m 2020-03-20 15:18:38,996 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mselenium-hub    |[0m {
+[36mselenium-hub    |[0m   "host": "0.0.0.0",
+[36mselenium-hub    |[0m   "port": 4444,
+[36mselenium-hub    |[0m   "role": "hub",
+[36mselenium-hub    |[0m   "maxSession": 5,
+[36mselenium-hub    |[0m   "newSessionWaitTimeout": -1,
+[36mselenium-hub    |[0m   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+[36mselenium-hub    |[0m   "throwOnCapabilityNotPresent": true,
+[36mselenium-hub    |[0m   "jettyMaxThreads": -1,
+[36mselenium-hub    |[0m   "cleanUpCycle": 5000,
+[36mselenium-hub    |[0m   "browserTimeout": 0,
+[36mselenium-hub    |[0m   "timeout": 1800,
+[36mselenium-hub    |[0m   "debug": false
+[36mselenium-hub    |[0m }
+[36mselenium-hub    |[0m 15:18:39.313 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[36mselenium-hub    |[0m 15:18:39.425 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+[36mselenium-hub    |[0m 2020-03-20 15:18:39.841:INFO::main: Logging initialized @825ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mselenium-hub    |[0m 15:18:40.210 INFO [Hub.start] - Selenium Grid hub is up and running
+[36mselenium-hub    |[0m 15:18:40.211 INFO [Hub.start] - Nodes should register to http://172.18.0.2:4444/grid/register/
+[36mselenium-hub    |[0m 15:18:40.212 INFO [Hub.start] - Clients should connect to http://172.18.0.2:4444/wd/hub
+[36mselenium-hub    |[0m 15:18:41.726 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.3:5555
+[36mselenium-hub    |[0m 15:18:41.727 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.4:5555
+[36mselenium-hub    |[0m Trapped SIGTERM/SIGINT/x so shutting down supervisord...
+[36mselenium-hub    |[0m 2020-03-20 15:18:42,466 WARN received SIGTERM indicating exit request
+[36mselenium-hub    |[0m 2020-03-20 15:18:42,467 INFO waiting for selenium-hub to die
+[36mselenium-hub    |[0m 2020-03-20 15:18:42,468 INFO stopped: selenium-hub (terminated by SIGTERM)
+[36mselenium-hub    |[0m Shutdown complete
+[36mselenium-hub    |[0m 2020-03-20 15:39:14,909 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+[36mselenium-hub    |[0m 2020-03-20 15:39:14,910 INFO supervisord started with pid 7
+[36mselenium-hub    |[0m 2020-03-20 15:39:15,914 INFO spawned: 'selenium-hub' with pid 10
+[36mselenium-hub    |[0m Starting Selenium Hub with configuration:
+[36mselenium-hub    |[0m 2020-03-20 15:39:15,952 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mselenium-hub    |[0m {
+[36mselenium-hub    |[0m   "host": "0.0.0.0",
+[36mselenium-hub    |[0m   "port": 4444,
+[36mselenium-hub    |[0m   "role": "hub",
+[36mselenium-hub    |[0m   "maxSession": 5,
+[36mselenium-hub    |[0m   "newSessionWaitTimeout": -1,
+[36mselenium-hub    |[0m   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+[36mselenium-hub    |[0m   "throwOnCapabilityNotPresent": true,
+[36mselenium-hub    |[0m   "jettyMaxThreads": -1,
+[36mselenium-hub    |[0m   "cleanUpCycle": 5000,
+[36mselenium-hub    |[0m   "browserTimeout": 0,
+[36mselenium-hub    |[0m   "timeout": 1800,
+[36mselenium-hub    |[0m   "debug": false
+[36mselenium-hub    |[0m }
+[36mselenium-hub    |[0m 15:39:16.333 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[36mselenium-hub    |[0m 15:39:16.441 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+[36mselenium-hub    |[0m 2020-03-20 15:39:16.903:INFO::main: Logging initialized @933ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mselenium-hub    |[0m 15:39:17.389 INFO [Hub.start] - Selenium Grid hub is up and running
+[36mselenium-hub    |[0m 15:39:17.392 INFO [Hub.start] - Nodes should register to http://172.18.0.2:4444/grid/register/
+[36mselenium-hub    |[0m 15:39:17.393 INFO [Hub.start] - Clients should connect to http://172.18.0.2:4444/wd/hub
+[36mselenium-hub    |[0m 15:39:18.686 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.4:5555
+[36mselenium-hub    |[0m 15:39:18.692 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.3:5555
+Attaching to selenium-hub, simpledockerdemo_chrome_1, simpledockerdemo_firefox_1
+[36mselenium-hub    |[0m 2020-03-20 16:46:37,379 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+[36mselenium-hub    |[0m 2020-03-20 16:46:37,386 INFO supervisord started with pid 7
+[33mchrome_1        |[0m 2020-03-20 16:46:37,421 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mchrome_1        |[0m 2020-03-20 16:46:37,424 INFO supervisord started with pid 7
+[32mfirefox_1       |[0m 2020-03-20 16:46:37,472 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mfirefox_1       |[0m 2020-03-20 16:46:37,475 INFO supervisord started with pid 7
+[36mselenium-hub    |[0m 2020-03-20 16:46:38,390 INFO spawned: 'selenium-hub' with pid 10
+[33mchrome_1        |[0m 2020-03-20 16:46:38,427 INFO spawned: 'xvfb' with pid 10
+[36mselenium-hub    |[0m Starting Selenium Hub with configuration:
+[36mselenium-hub    |[0m 2020-03-20 16:46:38,428 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 2020-03-20 16:46:38,432 INFO spawned: 'selenium-node' with pid 11
+[36mselenium-hub    |[0m {
+[36mselenium-hub    |[0m   "host": "0.0.0.0",
+[36mselenium-hub    |[0m   "port": 4444,
+[36mselenium-hub    |[0m   "role": "hub",
+[36mselenium-hub    |[0m   "maxSession": 5,
+[36mselenium-hub    |[0m   "newSessionWaitTimeout": -1,
+[36mselenium-hub    |[0m   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+[36mselenium-hub    |[0m   "throwOnCapabilityNotPresent": true,
+[36mselenium-hub    |[0m   "jettyMaxThreads": -1,
+[36mselenium-hub    |[0m   "cleanUpCycle": 5000,
+[36mselenium-hub    |[0m   "browserTimeout": 0,
+[36mselenium-hub    |[0m   "timeout": 1800,
+[36mselenium-hub    |[0m   "debug": false
+[36mselenium-hub    |[0m }
+[32mfirefox_1       |[0m 2020-03-20 16:46:38,478 INFO spawned: 'xvfb' with pid 10
+[32mfirefox_1       |[0m 2020-03-20 16:46:38,484 INFO spawned: 'selenium-node' with pid 11
+[32mfirefox_1       |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[32mfirefox_1       |[0m 2020-03-20 16:46:39,189 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2020-03-20 16:46:39,189 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[33mchrome_1        |[0m 2020-03-20 16:46:39,299 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 2020-03-20 16:46:39,299 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 16:46:39.874 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[36mselenium-hub    |[0m 16:46:39.874 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[33mchrome_1        |[0m 16:46:39.874 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mfirefox_1       |[0m 16:46:40.194 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[36mselenium-hub    |[0m 16:46:40.213 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+[33mchrome_1        |[0m 16:46:40.245 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[33mchrome_1        |[0m 2020-03-20 16:46:40.542:INFO::main: Logging initialized @1222ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mfirefox_1       |[0m 2020-03-20 16:46:40.542:INFO::main: Logging initialized @1333ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[36mselenium-hub    |[0m 2020-03-20 16:46:40.842:INFO::main: Logging initialized @2250ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mchrome_1        |[0m 16:46:41.126 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mfirefox_1       |[0m 16:46:41.131 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[36mselenium-hub    |[0m 16:46:41.280 INFO [Hub.start] - Selenium Grid hub is up and running
+[36mselenium-hub    |[0m 16:46:41.281 INFO [Hub.start] - Nodes should register to http://172.18.0.2:4444/grid/register/
+[36mselenium-hub    |[0m 16:46:41.281 INFO [Hub.start] - Clients should connect to http://172.18.0.2:4444/wd/hub
+[33mchrome_1        |[0m 16:46:41.283 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[33mchrome_1        |[0m 16:46:41.283 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mfirefox_1       |[0m 16:46:41.315 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[32mfirefox_1       |[0m 16:46:41.315 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mfirefox_1       |[0m 16:46:41.377 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[33mchrome_1        |[0m 16:46:41.393 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[32mfirefox_1       |[0m 16:46:42.202 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[33mchrome_1        |[0m 16:46:42.205 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[36mselenium-hub    |[0m 16:46:42.271 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.4:5555
+[32mfirefox_1       |[0m 16:46:42.271 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[33mchrome_1        |[0m 16:46:42.272 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36mselenium-hub    |[0m 16:46:42.273 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.3:5555
+Gracefully stopping... (press Ctrl+C again to force)
+Attaching to selenium-hub, simpledockerdemo_chrome_1, simpledockerdemo_firefox_1
+[36mselenium-hub    |[0m 2020-03-20 16:47:50,526 INFO Included extra file "/etc/supervisor/conf.d/selenium-hub.conf" during parsing
+[36mselenium-hub    |[0m 2020-03-20 16:47:50,528 INFO supervisord started with pid 8
+[33mchrome_1        |[0m 2020-03-20 16:47:51,116 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[33mchrome_1        |[0m 2020-03-20 16:47:51,117 INFO supervisord started with pid 7
+[32mfirefox_1       |[0m 2020-03-20 16:47:51,118 INFO Included extra file "/etc/supervisor/conf.d/selenium.conf" during parsing
+[32mfirefox_1       |[0m 2020-03-20 16:47:51,119 INFO supervisord started with pid 7
+[36mselenium-hub    |[0m 2020-03-20 16:47:51,532 INFO spawned: 'selenium-hub' with pid 11
+[36mselenium-hub    |[0m Starting Selenium Hub with configuration:
+[36mselenium-hub    |[0m 2020-03-20 16:47:51,564 INFO success: selenium-hub entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mselenium-hub    |[0m {
+[36mselenium-hub    |[0m   "host": "0.0.0.0",
+[36mselenium-hub    |[0m   "port": 4444,
+[36mselenium-hub    |[0m   "role": "hub",
+[36mselenium-hub    |[0m   "maxSession": 5,
+[36mselenium-hub    |[0m   "newSessionWaitTimeout": -1,
+[36mselenium-hub    |[0m   "capabilityMatcher": "org.openqa.grid.internal.utils.DefaultCapabilityMatcher",
+[36mselenium-hub    |[0m   "throwOnCapabilityNotPresent": true,
+[36mselenium-hub    |[0m   "jettyMaxThreads": -1,
+[36mselenium-hub    |[0m   "cleanUpCycle": 5000,
+[36mselenium-hub    |[0m   "browserTimeout": 0,
+[36mselenium-hub    |[0m   "timeout": 1800,
+[36mselenium-hub    |[0m   "debug": false
+[36mselenium-hub    |[0m }
+[36mselenium-hub    |[0m 16:47:51.895 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[36mselenium-hub    |[0m 16:47:52.078 INFO [GridLauncherV3.lambda$buildLaunchers$5] - Launching Selenium Grid hub on port 4444
+[33mchrome_1        |[0m 2020-03-20 16:47:52,120 INFO spawned: 'xvfb' with pid 10
+[32mfirefox_1       |[0m 2020-03-20 16:47:52,122 INFO spawned: 'xvfb' with pid 10
+[33mchrome_1        |[0m 2020-03-20 16:47:52,128 INFO spawned: 'selenium-node' with pid 11
+[32mfirefox_1       |[0m 2020-03-20 16:47:52,129 INFO spawned: 'selenium-node' with pid 11
+[32mfirefox_1       |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[32mfirefox_1       |[0m 2020-03-20 16:47:52,221 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[32mfirefox_1       |[0m 2020-03-20 16:47:52,221 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m Connecting to the Hub using the host selenium-hub and port 4444
+[33mchrome_1        |[0m 2020-03-20 16:47:52,240 INFO success: xvfb entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[33mchrome_1        |[0m 2020-03-20 16:47:52,240 INFO success: selenium-node entered RUNNING state, process has stayed up for > than 0 seconds (startsecs)
+[36mselenium-hub    |[0m 2020-03-20 16:47:52.564:INFO::main: Logging initialized @983ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mchrome_1        |[0m 16:47:52.735 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mfirefox_1       |[0m 16:47:52.786 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+[32mfirefox_1       |[0m 16:47:53.092 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[36mselenium-hub    |[0m 16:47:53.126 INFO [Hub.start] - Selenium Grid hub is up and running
+[36mselenium-hub    |[0m 16:47:53.132 INFO [Hub.start] - Nodes should register to http://172.18.0.2:4444/grid/register/
+[36mselenium-hub    |[0m 16:47:53.133 INFO [Hub.start] - Clients should connect to http://172.18.0.2:4444/wd/hub
+[33mchrome_1        |[0m 16:47:53.145 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Launching a Selenium Grid node on port 5555
+[32mfirefox_1       |[0m 2020-03-20 16:47:53.260:INFO::main: Logging initialized @1026ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[33mchrome_1        |[0m 2020-03-20 16:47:53.268:INFO::main: Logging initialized @1018ms to org.seleniumhq.jetty9.util.log.StdErrLog
+[32mfirefox_1       |[0m 16:47:53.574 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[33mchrome_1        |[0m 16:47:53.623 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+[32mfirefox_1       |[0m 16:47:53.710 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[32mfirefox_1       |[0m 16:47:53.710 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[33mchrome_1        |[0m 16:47:53.722 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 5555
+[33mchrome_1        |[0m 16:47:53.722 INFO [GridLauncherV3.lambda$buildLaunchers$7] - Selenium Grid node is up and ready to register to the hub
+[32mfirefox_1       |[0m 16:47:53.785 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[33mchrome_1        |[0m 16:47:53.826 INFO [SelfRegisteringRemote$1.run] - Starting auto registration thread. Will try to register every 5000 ms.
+[32mfirefox_1       |[0m 16:47:54.324 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[33mchrome_1        |[0m 16:47:54.343 INFO [SelfRegisteringRemote.registerToHub] - Registering the node to the hub: http://selenium-hub:4444/grid/register
+[32mfirefox_1       |[0m 16:47:54.392 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[33mchrome_1        |[0m 16:47:54.391 INFO [SelfRegisteringRemote.registerToHub] - The node is registered to the hub and ready to use
+[36mselenium-hub    |[0m 16:47:54.390 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.3:5555
+[36mselenium-hub    |[0m 16:47:54.392 INFO [DefaultGridRegistry.add] - Registered a node http://172.18.0.4:5555
