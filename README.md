@@ -1,8 +1,9 @@
-<div align="center">
+<div>
 <img align="right" src="imgs/DockerLogo.png" alt="Docker logo" />
-<div/ align="center">
+</div>
 
 
+<div>
 
 # Docker examples
 
@@ -52,3 +53,5 @@ Name:   search
 Address: 172.18.0.2
 Name:   search
 Address: 172.18.0.3
+
+</div>
